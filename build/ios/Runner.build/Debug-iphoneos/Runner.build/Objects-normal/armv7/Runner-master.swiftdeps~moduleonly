@@ -1,0 +1,5 @@
+version: "Apple Swift version 5.3.2 (swiftlang-1200.0.45 clang-1200.0.32.28)"
+options: "341eabdd185a5b0d02ff1fc60523a62f"
+build_time: [1610698002, 682106000]
+inputs:
+  "/Users/Abiringira/Desktop/uberr-ui/ios/Runner/AppDelegate.swift": [1610643241, 454073141]

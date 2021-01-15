@@ -1,0 +1,11 @@
+framework module iso_countries {
+  umbrella header "iso_countries-umbrella.h"
+
+  export *
+  module * { export * }
+}
+
+module iso_countries.Swift {
+    header "iso_countries-Swift.h"
+    requires objc
+}
