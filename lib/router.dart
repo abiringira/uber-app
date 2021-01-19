@@ -43,6 +43,8 @@ const String SuggestedRidesRoute = "suggested-route";
 const String MyRidesRoute = "my-rides";
 
 // Router
+
+
 Route<dynamic> onGenerateRoute(RouteSettings settings) {
   switch (settings.name) {
     case WalkthroughRoute:

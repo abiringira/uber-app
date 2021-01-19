@@ -5,8 +5,15 @@ import 'package:uber/router.dart';
 import 'package:uber/styles/theme_data.dart';
 
 void main() {
-  runApp(
-    ChangeNotifierProvider(
+  runApp(MyApp());
+}
+
+class MyApp extends StatelessWidget {
+
+  @override
+  Widget build(BuildContext context) {
+
+   return ChangeNotifierProvider(
       create: (BuildContext context) => WalkthroughProvider(),
       child: MaterialApp(
         debugShowCheckedModeBanner: false,
@@ -14,6 +21,7 @@ void main() {
         theme: ThemeScheme.light(),
         initialRoute: WalkthroughRoute,
       ),
-    ),
-  );
+    );
+  }
+
 }
